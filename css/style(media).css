@@ -1,0 +1,281 @@
+@media (min-width: 365px) and (max-width: 767px) {
+    #fp-nav{
+        display: none;
+    }
+    #intro{
+        display: none;
+    }
+    .before-load .layout {
+        display: block;
+      }
+    .btn-box {
+        width: 26vw;
+        height: 4vh;
+        margin: 0 auto;
+        border: 2px solid #1d6c98;
+    }   
+    .btn-box a.btn {
+        line-height: 4vh;
+        font-size: 12px;
+    }
+    .header .inner{
+        padding: 15px;
+        justify-content: left;
+    }
+    .header .inner span {
+        font-size: 26px;
+    }
+    .menu-box .menu-btn{
+        display: none;
+    }
+    .about .title{
+        position: absolute;
+        width: 100%;
+        top: 18px;
+        text-align: right;
+    }
+    .about .title h2{
+        font-size: 24px;
+        font-weight: 900;
+        margin-right: 15px;
+    }
+    .about-items .item{
+        width: 90%;
+        position: relative;
+        flex-direction: column;
+    }
+    .about-items .item .image{
+        width: 38vw;
+        position: absolute;
+        left: 0;
+        top: 16vh;
+    }
+    .about-items .item .profile{
+        padding-right: 0;
+        position: absolute;
+        right: 0;
+        top: 16vh;
+    }
+    .about-items .item nav {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+    }
+    .about-items .item .profile h3{
+        width: 7vw;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        border-bottom: 1px solid rgb(48, 48, 48);
+        font-size: 20px;
+    }
+    .about-items .item .profile p{
+        line-height: 1.6;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .about-items .item .profile p span{
+        display: none;
+    }
+    .about-items .item h3{
+        font-size: 18px;
+    }
+    .about-items .item nav p{
+        font-size: 14px;
+    }
+    .skills .inner{
+        width: 80vw;
+    }
+    .skills .inner strong{
+        width: 60vw;
+        margin: 17vh auto 8vh;
+        font-size: 26px;
+        font-weight: 900;
+        border-bottom: 2px solid rgb(94, 94, 94);
+        padding-bottom: 6vh;
+    }
+    .skills .inner h2{
+        display: none;
+    }
+    .skills-items{
+        flex-direction: column;
+        margin-top: 0;
+    }
+    .skills-items .item{
+        width: 95%;
+        margin-bottom: 4vh;
+      }
+    .skills-items .item h3{
+        font-size: 20px;
+    }
+    .skills-items .item p{
+        display: none;
+    }
+    .count-box{
+        position: relative;
+        width: 100%;
+        margin: 1vh 0 1.2vh;
+    }
+    .portfolio .inner{
+        width: 95%;
+        height: 100%;
+        flex-direction: column;
+    }
+    .portfolio .title{
+        top: 12%;
+    }
+    .portfolio .title h2{
+        font-size: 24px;
+        font-weight: 900;
+    }
+    .portfolio .inner .desc{
+        width: 100%;
+        position: absolute;
+        bottom: 8vh;
+        text-align: center;
+    }
+    .portfolio .inner .desc h3 {
+        font-size: 22px;
+    }
+    .portfolio .inner .desc h3 span {
+        font-size: 14px;
+        margin: 1vh 0 4vh;
+    }
+    .portfolio .inner .image{
+        position: absolute;
+        top: 18vh;
+        width: 93vw;
+        height: 35vh;
+    }
+    .portfolio .inner .desc .items .item{
+        display: none;
+    }
+    .portfolio .inner .desc .items .item:nth-child(1),
+    .portfolio .inner .desc .items .item:nth-child(2){
+        display: block;
+        margin-bottom: 0;
+    }
+    .portfolio .inner .desc .items .item:nth-child(2){}
+    .portfolio .inner .desc .items .item h4{
+        margin-bottom: 3vh;
+        font-size: 20px;
+    }
+    .portfolio .inner .desc .items .item h4 span {
+        margin-top: 1vh;
+    }
+    .clone .title{
+        display: none;
+    }
+    .clone-items{
+        flex-direction: column;
+        margin-top: 10vh;
+    }
+    .clone-item {
+        width: 95%;
+        height: 50%;
+        padding: 0;
+        text-align: center;
+    }
+    .clone-item:nth-child(1) {
+        margin-left: 0;
+    }
+    .clone-item:nth-child(2) {
+        margin-right: 0;
+        margin-top: 6vh;
+    }
+    .clone-item .image{
+        width: 80%;
+        margin: 0 auto;
+        -webkit-transform: rotateY(0) rotateZ(0);
+        transform: rotateY(0) rotateZ(0);
+    }
+    .clone-item .desc h4:nth-of-type(1){
+        display: none;
+    }
+    .clone-item .desc {
+        margin: 0;
+      }
+    .clone-item .desc h3 {
+        font-size: 20px;
+        margin: 3vh 0 2vh;
+    }
+    .clone-item .desc h3 span {
+        font-size: 12px;
+        margin: 0;
+    }
+    .clone-item .desc h4 {
+        display: none;
+    }
+    .clone-item .desc p {
+        display: none;
+    }
+    .sec7 .title h2{
+        display: none;
+    }
+    .sec7 .inner{
+        width: 90vw;
+        padding: 0;
+        text-align: center;
+    }
+    .sec7 .inner .desc h3{
+        font-size: 20px;
+    }
+    .sec7 .inner .desc h3 span{
+        font-size: 14px;
+        padding: 0 25px;
+        margin: 2vh 0 5vh;
+    }
+    .sec7 .inner .desc h4{
+        /* display: none; */
+        font-size: 16px;
+    }
+    /* .contact-con{
+        margin-top: 0;
+      }
+    .contact-con h3{
+        font-size: 14px;
+        margin: 0;
+    }
+    .contact-con p{
+        font-size: 12px;     
+        margin-top: 1.5vh;
+    } */
+    .contact-items{
+        flex-direction: column;
+        /* margin: 0; */
+    }
+    .contact-items li{
+        width: 75vw;
+        height: 10vh;
+        justify-content: center;
+        margin-top: 1vh;
+    }
+    .contact-items li a,
+    .contact-items li.item01 a,
+    .contact-items li a span{
+        font-size: 14px;
+    }
+
+    /* .contact-items .item.item01 a{
+        font-size: 14px;
+    }
+    .contact-items .item.item02,
+    .contact-items .item.item03 {
+      margin-left: 0;
+      justify-content: center;
+    }
+    .contact-items .item.item02 h3,
+    .contact-items .item.item03 h3{
+      font-size: 14px;
+    }
+    .contact-items .item.item02 h3 a,
+    .contact-items .item.item03 h3 a{
+      font-size: 16px;
+      margin-top: 0.5vh;
+    } */
+    .sec7 .serve-title{
+        width: 100%;
+        text-align: center;
+        font-weight: 500;
+        color: #000;
+    }
+}
